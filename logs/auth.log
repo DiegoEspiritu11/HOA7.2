@@ -1,0 +1,185 @@
+Mar  7 09:41:40 ManageNode systemd-logind[423]: New seat seat0.
+Mar  7 09:41:40 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 09:41:40 ManageNode systemd-logind[423]: New session c1 of user gdm.
+Mar  7 09:41:40 ManageNode systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 09:41:40 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 09:41:40 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 09:41:41 ManageNode gnome-keyring-daemon[588]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Mar  7 09:41:41 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 09:41:41 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar  7 09:41:41 ManageNode systemd-logind[423]: Removed session c1.
+Mar  7 09:41:41 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 09:41:41 ManageNode systemd-logind[423]: New session c2 of user gdm.
+Mar  7 09:41:41 ManageNode systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 09:41:45 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:41:52 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 09:41:52 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 09:41:52 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 09:41:59 ManageNode gdm-password]: pam_unix(gdm-password:session): session opened for user espiritu by (uid=0)
+Mar  7 09:41:59 ManageNode systemd: pam_unix(systemd-user:session): session opened for user espiritu by (uid=0)
+Mar  7 09:41:59 ManageNode systemd-logind[423]: New session 3 of user espiritu.
+Mar  7 09:42:00 ManageNode gnome-keyring-daemon[1339]: The Secret Service was already initialized
+Mar  7 09:42:02 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:42:08 ManageNode dbus-daemon[431]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 09:43:02 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 09:43:02 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 09:43:34 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 09:43:39 ManageNode pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  7 09:43:39 ManageNode pkexec[3039]: espiritu: Executing command [USER=root] [TTY=unknown] [CWD=/home/espiritu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 09:43:55 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  7 09:43:55 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 09:46:58 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:46:58 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:46:59 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:46:59 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 09:47:08 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 09:47:08 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 09:47:08 ManageNode systemd-logind[423]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 09:48:01 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 09:49:06 ManageNode pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  7 09:49:06 ManageNode pkexec[9727]: espiritu: Executing command [USER=root] [TTY=unknown] [CWD=/home/espiritu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 10:17:01 ManageNode CRON[9762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 10:17:01 ManageNode CRON[9762]: pam_unix(cron:session): session closed for user root
+Mar  7 10:18:25 ManageNode sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=espiritu rhost=  user=espiritu
+Mar  7 10:18:26 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  7 10:18:26 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:19:08 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:19:25 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  7 10:19:25 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:19:31 ManageNode useradd[11573]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar  7 10:19:31 ManageNode usermod[11579]: change user 'sshd' password
+Mar  7 10:19:31 ManageNode chage[11584]: changed password expiry for sshd
+Mar  7 10:19:31 ManageNode sshd[11672]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:19:31 ManageNode sshd[11672]: Server listening on :: port 22.
+Mar  7 10:19:35 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:19:55 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  7 10:19:55 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:19:56 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:20:12 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/sbin/ufw allows ssh
+Mar  7 10:20:12 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:20:12 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:20:17 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  7 10:20:17 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:20:17 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:20:25 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  7 10:20:25 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:20:25 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:20:43 ManageNode sudo: espiritu : TTY=pts/0 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  7 10:20:43 ManageNode sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 10:20:49 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+                                                                                                                           Mar  7 10:24:43 ManageNode systemd-logind[543]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 10:24:43 ManageNode systemd-logind[543]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 10:24:43 ManageNode systemd-logind[543]: New seat seat0.
+Mar  7 10:24:43 ManageNode sshd[615]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:24:43 ManageNode sshd[615]: Server listening on :: port 22.
+Mar  7 10:24:44 ManageNode systemd-logind[543]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 10:24:44 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 10:24:44 ManageNode systemd-logind[543]: New session c1 of user gdm.
+Mar  7 10:24:44 ManageNode systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 10:24:44 ManageNode sshd[615]: Received SIGHUP; restarting.
+Mar  7 10:24:44 ManageNode sshd[615]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:24:44 ManageNode sshd[615]: Server listening on :: port 22.
+Mar  7 10:24:45 ManageNode sshd[615]: Received SIGHUP; restarting.
+Mar  7 10:24:45 ManageNode sshd[615]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:24:45 ManageNode sshd[615]: Server listening on :: port 22.
+Mar  7 10:24:47 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 10:25:01 ManageNode gdm-password]: pam_unix(gdm-password:session): session opened for user espiritu by (uid=0)
+Mar  7 10:25:01 ManageNode systemd: pam_unix(systemd-user:session): session opened for user espiritu by (uid=0)
+Mar  7 10:25:02 ManageNode systemd-logind[543]: New session 2 of user espiritu.
+Mar  7 10:25:04 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 10:25:10 ManageNode dbus-daemon[513]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+                                                                                                                                                                                                                                                                                                                Mar  7 10:26:38 ControlNode systemd-logind[564]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 10:26:38 ControlNode systemd-logind[564]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 10:26:38 ControlNode systemd-logind[564]: New seat seat0.
+Mar  7 10:26:39 ControlNode systemd-logind[564]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 10:26:39 ControlNode sshd[622]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:26:39 ControlNode sshd[622]: Server listening on :: port 22.
+Mar  7 10:26:39 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 10:26:39 ControlNode systemd-logind[564]: New session c1 of user gdm.
+Mar  7 10:26:39 ControlNode systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 10:26:40 ControlNode sshd[622]: Received SIGHUP; restarting.
+Mar  7 10:26:40 ControlNode sshd[622]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:26:40 ControlNode sshd[622]: Server listening on :: port 22.
+Mar  7 10:26:41 ControlNode sshd[622]: Received SIGHUP; restarting.
+Mar  7 10:26:41 ControlNode sshd[622]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:26:41 ControlNode sshd[622]: Server listening on :: port 22.
+Mar  7 10:26:42 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 10:26:42 ControlNode sshd[622]: Received SIGHUP; restarting.
+Mar  7 10:26:42 ControlNode sshd[622]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:26:42 ControlNode sshd[622]: Server listening on :: port 22.
+Mar  7 10:26:44 ControlNode sshd[622]: Received SIGHUP; restarting.
+Mar  7 10:26:44 ControlNode sshd[622]: Server listening on 0.0.0.0 port 22.
+Mar  7 10:26:44 ControlNode sshd[622]: Server listening on :: port 22.
+Mar  7 10:27:06 ControlNode dbus-daemon[533]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 10:27:09 ControlNode gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=espiritu
+Mar  7 10:27:13 ControlNode gdm-password]: pam_unix(gdm-password:session): session opened for user espiritu by (uid=0)
+Mar  7 10:27:14 ControlNode systemd: pam_unix(systemd-user:session): session opened for user espiritu by (uid=0)
+Mar  7 10:27:14 ControlNode systemd-logind[564]: New session 2 of user espiritu.
+Mar  7 10:27:16 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 10:27:40 ControlNode dbus-daemon[533]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 10:31:55 ControlNode sshd[1885]: Accepted password for espiritu from 192.168.56.105 port 52312 ssh2
+Mar  7 10:31:55 ControlNode sshd[1885]: pam_unix(sshd:session): session opened for user espiritu by (uid=0)
+Mar  7 10:31:55 ControlNode systemd-logind[564]: New session 4 of user espiritu.
+Mar  7 10:32:00 ControlNode sshd[1954]: Received disconnect from 192.168.56.105 port 52312:11: disconnected by user
+Mar  7 10:32:00 ControlNode sshd[1954]: Disconnected from user espiritu 192.168.56.105 port 52312
+Mar  7 10:32:00 ControlNode sshd[1885]: pam_unix(sshd:session): session closed for user espiritu
+Mar  7 10:32:00 ControlNode systemd-logind[564]: Removed session 4.
+Mar  7 10:33:40 ControlNode sshd[1973]: Connection closed by authenticating user espiritu 192.168.56.105 port 50216 [preauth]
+Mar  7 10:34:28 ControlNode sshd[1976]: Connection closed by authenticating user espiritu 192.168.56.105 port 40294 [preauth]
+Mar  7 10:34:28 ControlNode sshd[1978]: Connection closed by authenticating user espiritu 192.168.56.105 port 40304 [preauth]
+Mar  7 10:34:31 ControlNode sshd[1980]: Accepted password for espiritu from 192.168.56.105 port 40312 ssh2
+Mar  7 10:34:31 ControlNode sshd[1980]: pam_unix(sshd:session): session opened for user espiritu by (uid=0)
+Mar  7 10:34:31 ControlNode systemd-logind[564]: New session 5 of user espiritu.
+Mar  7 10:34:31 ControlNode sshd[2025]: Received disconnect from 192.168.56.105 port 40312:11: disconnected by user
+Mar  7 10:34:31 ControlNode sshd[2025]: Disconnected from user espiritu 192.168.56.105 port 40312
+Mar  7 10:34:31 ControlNode sshd[1980]: pam_unix(sshd:session): session closed for user espiritu
+Mar  7 10:34:31 ControlNode systemd-logind[564]: Removed session 5.
+Mar  7 10:34:35 ControlNode sshd[2031]: Accepted publickey for espiritu from 192.168.56.105 port 59720 ssh2: RSA SHA256:OrN4+gwHLjKRNUsbkBe0V+KSNTnd2ckbkA/TdfgEIIM
+Mar  7 10:34:35 ControlNode sshd[2031]: pam_unix(sshd:session): session opened for user espiritu by (uid=0)
+Mar  7 10:34:35 ControlNode systemd-logind[564]: New session 6 of user espiritu.
+Mar  7 10:35:35 ControlNode sshd[2076]: Received disconnect from 192.168.56.105 port 59720:11: disconnected by user
+Mar  7 10:35:35 ControlNode sshd[2076]: Disconnected from user espiritu 192.168.56.105 port 59720
+Mar  7 10:35:35 ControlNode sshd[2031]: pam_unix(sshd:session): session closed for user espiritu
+Mar  7 10:35:35 ControlNode systemd-logind[564]: Removed session 6.
+Mar  7 10:47:22 ControlNode sshd[2142]: Accepted publickey for espiritu from 192.168.56.105 port 58078 ssh2: RSA SHA256:OrN4+gwHLjKRNUsbkBe0V+KSNTnd2ckbkA/TdfgEIIM
+Mar  7 10:47:22 ControlNode sshd[2142]: pam_unix(sshd:session): session opened for user espiritu by (uid=0)
+Mar  7 10:47:22 ControlNode systemd-logind[564]: New session 7 of user espiritu.
+Mar  7 10:47:22 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hjboklvodcjnpyktnyarnkytjusrbfur; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779642.34-63496400278124/setup.py
+Mar  7 10:47:22 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:47:22 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:47:23 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ebcknmgpisufooeaqfdvgwlsgcczqdxy; sudo dpkg --configure -a
+Mar  7 10:47:23 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:47:23 ControlNode sudo:     root : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 10:47:23 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:47:23 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:47:23 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:47:23 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sgedmlteseljakiledzfcaoocyvzjjbs; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779643.27-228671741936155/apt.py
+Mar  7 10:47:23 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:47:34 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:48:34 ControlNode sshd[2187]: Received disconnect from 192.168.56.105 port 58078:11: disconnected by user
+Mar  7 10:48:34 ControlNode sshd[2187]: Disconnected from user espiritu 192.168.56.105 port 58078
+Mar  7 10:48:34 ControlNode sshd[2142]: pam_unix(sshd:session): session closed for user espiritu
+Mar  7 10:48:34 ControlNode systemd-logind[564]: Removed session 7.
+Mar  7 10:49:16 ControlNode sshd[2846]: Accepted publickey for espiritu from 192.168.56.105 port 41412 ssh2: RSA SHA256:OrN4+gwHLjKRNUsbkBe0V+KSNTnd2ckbkA/TdfgEIIM
+Mar  7 10:49:16 ControlNode sshd[2846]: pam_unix(sshd:session): session opened for user espiritu by (uid=0)
+Mar  7 10:49:16 ControlNode systemd-logind[564]: New session 8 of user espiritu.
+Mar  7 10:49:17 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ddhxgbgcaepqdtwzwiflrinpqysndmjk; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779756.68-198941383115101/setup.py
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:17 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qddzqxqymhsrbyngahkjlohpnetriwab; sudo dpkg --configure -a
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:17 ControlNode sudo:     root : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:17 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqydztqzuizcqysalnwhllvzijxpssbw; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779757.65-175271428909392/apt.py
+Mar  7 10:49:17 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:19 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:20 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gqzfsqmflfujcforyzoyofhnlclwzhjj; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779760.02-278708866214155/setup.py
+Mar  7 10:49:20 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:20 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:20 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-prstkoglkptrhgevgbqksmmobgzhqmws; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779760.6-66194241852600/slurp.py
+Mar  7 10:49:20 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
+Mar  7 10:49:20 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 10:49:20 ControlNode sudo: espiritu : TTY=pts/1 ; PWD=/home/espiritu ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gbaerrygxvgsbwqlenvlgmdfdlinoguh; /usr/bin/python /home/espiritu/.ansible/tmp/ansible-tmp-1709779760.85-121414181655973/slurp.py
+Mar  7 10:49:20 ControlNode sudo: pam_unix(sudo:session): session opened for user root by espiritu(uid=0)
